@@ -18,13 +18,29 @@
     gap: 10px;
     height: 48px;
     color: #FFFFFF;
+    align-items: center;
 }
 .heading{
     font-weight: bold;
     font-size: 65px;
     color: #252432;
+    /* align-items: center; */
     
 }
 .banner{
     background-image: url('../Assets/Hero-bg.png')
+}
+.action{
+    display: flex;
+    gap: 623px;
+    margin: 62.5px 142px;
+}
+.title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.sub-title{
+    font-size: 24px;
+    color: #252432;
 }
